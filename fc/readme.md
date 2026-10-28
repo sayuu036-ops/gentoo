@@ -14,7 +14,7 @@ CONFIG_HW_RANDOM_VIRTIO=y    # entropy from the host
 CONFIG_SERIAL_8250=y
 CONFIG_SERIAL_8250_CONSOLE=y
 ```
-
+```
 general setup  
 	configure standard kernel features  
 		enable support for printk  
@@ -33,3 +33,4 @@ enable the block layer
 networking support  
 	networking options  
 		virtual socket protocol
+```
