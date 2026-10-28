@@ -1,4 +1,7 @@
 ```
+sudo rm -rf /run/firecracker.socket && sudo firecracker --config-file fc.json
+```
+```
 # --- Firecracker guest kernel: the load-bearing symbols (fragment) ---
 # virtio transport over MMIO (Firecracker does NOT use PCI)
 CONFIG_VIRTIO=y
