@@ -1,0 +1,154 @@
+2026-10-28T15:13:19.250528758 [anonymous-instance:main] Running Firecracker v1.17.0
+2026-10-28T15:13:19.250730790 [anonymous-instance:main] Listening on API socket ("/run/firecracker.socket").
+2026-10-28T15:13:19.250931579 [anonymous-instance:fc_api] API server started.
+2026-10-28T15:13:19.257609715 [anonymous-instance:main] Artificially kick devices
+2026-10-28T15:13:19.257715786 [anonymous-instance:fc_vcpu 0] Received a VcpuEvent::Resume message with immediate_exit enabled. immediate_exit was disabled before proceeding
+2026-10-28T15:13:19.257739410 [anonymous-instance:main] Successfully started microvm that was configured from one single json
+2026-10-28T15:13:19.280969406 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281011686 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281026574 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281040490 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281055358 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281070076 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281086447 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281101646 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281116053 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281129949 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281144246 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281159555 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281179673 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281194872 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281209940 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281223766 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281239045 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281252841 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281266688 [anonymous-instance:fc_vcpu 0] vcpu: IO write @ 0x70:0x1 failed: Failed to find address range.
+2026-10-28T15:13:19.281280383 [anonymous-instance:fc_vcpu 0] vcpu: IO read @ 0x71:0x1 failed: Failed to find address range.
+Linux version 7.3.0-rc7+ (gara@gara-Inspiron) (gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, GNU ld (GNU Binutils for Ubuntu) 2.46) #2 PREEMPT Wed Oct 28 14:43:15 JST 2026
+Command line: console=ttyS0 reboot=k panic=1 pci=off i8042.noaux i8042.nomux i8042.nopnp i8042.dumbkbd pci=off
+x86 CPU feature dependency check failure: CPU0 has '18*32+31' enabled but '18*32+26' disabled. Kernel might be fine, but no guarantees.
+[Firmware Bug]: TSC doesn't count with P0 frequency!
+BIOS-provided physical RAM map:
+BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff]  System RAM
+BIOS-e820: [mem 0x000000000009fc00-0x00000000000dffff]  device reserved
+BIOS-e820: [gap 0x00000000000e0000-0x00000000000fffff]
+BIOS-e820: [mem 0x0000000000100000-0x0000000007ffffff]  System RAM
+BIOS-e820: [gap 0x0000000008000000-0x00000000eebfffff]
+BIOS-e820: [mem 0x00000000eec00000-0x00000000febfffff]  device reserved
+NX (Execute Disable) protection: active
+APIC: Static calls initialized
+tsc: Fast TSC calibration using PIT
+tsc: Detected 1996.052 MHz processor
+last_pfn = 0x8000 max_arch_pfn = 0x400000000
+x86/PAT: PAT support disabled because CONFIG_X86_PAT is disabled in the kernel.
+x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+found SMP MP-table at [mem 0x0009fc00-0x0009fc0f]
+Using GB pages for direct mapping
+Intel MultiProcessor Specification v1.4
+MPTABLE: OEM ID: FC      
+MPTABLE: Product ID: 000000000000
+MPTABLE: APIC at: 0xFEE00000
+Intel MultiProcessor Specification v1.4
+MPTABLE: OEM ID: FC      
+MPTABLE: Product ID: 000000000000
+MPTABLE: APIC at: 0xFEE00000
+Processor #0 (Bootup-CPU)
+IOAPIC[0]: apic_id 2, version 17, address 0xfec00000, GSI 0-23
+Processors: 1
+TSC deadline timer available
+CPU topo: Max. logical packages:   1
+CPU topo: Max. logical nodes:      1
+CPU topo: Num. nodes per package:  1
+CPU topo: Max. logical dies:       1
+CPU topo: Max. dies per package:   1
+CPU topo: Max. threads per core:   1
+CPU topo: Num. cores per package:     1
+CPU topo: Num. threads per package:   1
+CPU topo: Allowing 1 present CPUs plus 0 hotplug CPUs
+[gap 0x08000000-0xeebfffff] available for PCI devices
+clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Zone ranges:
+  DMA32    [mem 0x0000000000001000-0x0000000007ffffff]
+  Normal   empty
+Movable zone start for each node
+Early memory node ranges
+  node   0: [mem 0x0000000000001000-0x000000000009efff]
+  node   0: [mem 0x0000000000100000-0x0000000007ffffff]
+Initmem setup node 0 [mem 0x0000000000001000-0x0000000007ffffff]
+On node 0, zone DMA32: 1 pages in unavailable ranges
+On node 0, zone DMA32: 97 pages in unavailable ranges
+Kernel command line: console=ttyS0 reboot=k panic=1 pci=off i8042.noaux i8042.nomux i8042.nopnp i8042.dumbkbd pci=off
+Unknown kernel command line parameters "pci=off", will be passed to user space.
+random: crng init done
+printk: log buffer data + meta data: 131072 + 458752 = 589824 bytes
+Dentry cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Inode-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Built 1 zonelists, mobility grouping on.  Total pages: 32670
+mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+SLUB: HWalign=64, Order=0-1, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS: 4352, nr_irqs: 48, preallocated irqs: 16
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Console: colour dummy device 80x25
+printk: console [ttyS0] enabled
+APIC: Switch to symmetric I/O mode setup
+clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x398b3921c5e, max_idle_ns: 881590404252 ns
+Calibrating delay loop (skipped), value calculated using timer frequency.. 3992.10 BogoMIPS (lpj=7984208)
+Last level iTLB entries: 4KB 512, 2MB 512, 4MB 256
+Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+CPU: AMD EPYC (family: 0x19, model: 0x50, stepping: 0x0)
+mitigations: Enabled attack vectors: SMT mitigations: off
+Speculative Store Bypass: Vulnerable
+Spectre V2 : Vulnerable
+Speculative Return Stack Overflow: Vulnerable
+Spectre V1 : Vulnerable: __user pointer sanitization and usercopy barriers only; no swapgs barriers
+x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+x86/fpu: Supporting XSAVE feature 0x800: 'Control-flow User registers'
+x86/fpu: Supporting XSAVE feature 0x1000: 'Control-flow Kernel registers (KVM only)'
+x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+x86/fpu: xstate_offset[9]:  832, xstate_sizes[9]:    8
+x86/fpu: xstate_offset[11]:  840, xstate_sizes[11]:   16
+x86/fpu: xstate_offset[12]:  856, xstate_sizes[12]:   24
+x86/fpu: Enabled xstate features 0x1a07, context size is 880 bytes, using 'compacted' format.
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+VFS: Finished mounting rootfs on nullfs
+Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+... version:                   0
+... bit width:                 48
+... generic counters:          6
+... generic bitmap:            000000000000003f
+... fixed-purpose counters:    0
+... fixed-purpose bitmap:      0000000000000000
+... value mask:                0000ffffffffffff
+... max period:                00007fffffffffff
+... global_ctrl mask:          000000000000003f
+signal: max sigframe size: 2976
+Memory: 119240K/130680K available (2146K kernel code, 777K rwdata, 408K rodata, 564K init, 236K bss, 10704K reserved, 0K cma-reserved)
+NET: Registered PF_NETLINK/PF_ROUTE protocol family
+clocksource: Switched to clocksource tsc-early
+platform rtc_cmos: registered fallback platform RTC device
+2026-10-28T15:13:19.398471138 [anonymous-instance:fc_vcpu 0] Invalid MMIO read @ 0xfed803c0:0x4: Failed to find address range.
+2026-10-28T15:13:19.398493029 [anonymous-instance:fc_vcpu 0] Invalid MMIO read @ 0xfed803c0:0x4: Failed to find address range.
+workingset: timestamp_bits=62 (anon: 57) max_order=15 bucket_order=0 (anon: 0)
+io scheduler mq-deadline registered
+io scheduler kyber registered
+Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+serial8250: ttyS0 I/O:0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+serio: i8042 KBD port at 0x60,0x64 irq 1
+NET: Registered PF_VSOCK protocol family
+input: AT Raw Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+NET: Unregistered PF_VSOCK protocol family
+sched_clock: Marking stable (3861723, 71584608)->(117064856, -41618525)
+List of all partitions:
+No filesystem could mount root, tried: 
+
+Kernel panic - not syncing: VFS: Unable to mount root fs on "" or unknown-block(0,0)
+Kernel Offset: disabled
+Rebooting in 1 seconds..
+2026-10-28T15:13:20.416017134 [anonymous-instance:main] Vmm is stopping.
+2026-10-28T15:13:20.416557474 [anonymous-instance:main] Killing vCPU threads
+2026-10-28T15:13:20.438509185 [anonymous-instance:main] Firecracker exiting successfully. exit_code=0
